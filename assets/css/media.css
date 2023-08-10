@@ -1,0 +1,389 @@
+/* MOBILE */
+@media(max-width: 833px){
+
+    /* HEADER */
+    header>nav>ul{
+        display: none;
+    }
+    
+    
+    header>nav>img:last-child{
+        display: inline-block;
+    }
+    header>nav>img:nth-child(3){
+        margin-left: auto;
+    }
+
+
+     
+/* SECTION 1*/
+
+.banner1>.heading{
+    padding-top: 45px;
+    padding-bottom: 4px;
+}
+
+.banner1>.heading>h1{
+    font-size:26px;
+    width: 280px;
+}
+.banner1>:nth-child(2){
+    font-size: 15px
+}
+
+.banner1>:nth-child(3){
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.banner1>:nth-child(3)>a{
+    font-size: 17px;
+
+}
+
+.banner1>:last-child{
+    height: 225px;
+}
+
+
+
+
+
+
+/* section 2 */
+
+
+
+.banner2-bg{
+    background: url(../images/image2_mobile.jpg) no-repeat center;
+}
+
+.banner2-text{
+    
+    margin-top: 45px;
+}
+
+
+.banner2-text>h1{
+    font-size: 30px;
+}
+
+.banner2-text>p{
+    font-size: 18px;
+}
+
+.banner2-text>div>span>a{
+    font-size: 17px;
+}
+
+/* BANNER 3 */
+
+.banner3-bg{
+    background: url(../images/banner3_bg_mobile.jpg) no-repeat center;
+}
+
+
+.banner2-text{
+    
+    margin-top: 45px;
+}
+
+
+.banner2-text>h1{
+    font-size: 30px;
+}
+
+.banner2-text>p{
+    font-size: 18px;
+}
+
+.banner2-text>div>span>a{
+    font-size: 17px;
+}
+
+
+/* SECTION 5 */
+
+.section5-6-7-prop{
+    margin: 0px;
+
+}
+.small-banners{
+    margin: 0px 6px 6px 0px;
+    width: 50%;
+}
+
+.small-banners-text{
+    width: 350px;
+}
+
+.section5-6-7-prop{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.small-banners{
+    width: 100%;
+}
+
+
+.small-banners-text{
+    width: 230px;
+}
+
+.small-banners-text>h1{
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+
+.small-banners-text>p{
+    font-size: 18px;
+}
+
+
+/* MOVIE BANNER SWIPER */ 
+
+
+
+
+
+
+#carousel-cell-image-1{
+    content: url(../images/movie-mobile-banner1.jpg);
+}
+#carousel-cell-image-2{
+    content: url(../images/movie-mobile-banner2.jpg);
+}
+#carousel-cell-image-3{
+    content: url(../images/movie-mobile-banner3.jpg);
+}
+#carousel-cell-image-4{
+    content: url(../images/movie-mobile-banner4.jpg);
+}
+#carousel-cell-image-5{
+    content: url(../images/movie-mobile-banner5.jpg);
+}
+#carousel-cell-image-6{
+    content: url(../images/movie-mobile-banner6.jpg);
+}
+#carousel-cell-image-7{
+    content: url(../images/movie-mobile-banner7.jpg);
+}
+#carousel-cell-image-8{
+    content: url(../images/movie-mobile-banner8.jpg);
+}
+#carousel-cell-image-9{
+    content: url(../images/movie-mobile-banner9.jpg);
+}
+#carousel-cell-image-10{
+    content: url(../images/movie-mobile-banner10.jpg);
+}
+#carousel-cell-image-11{
+    content: url(../images/movie-mobile-banner11.jpg);
+}
+
+
+
+/* FOOT NOTES */
+
+.footNotes{
+    padding: 10px 14px;
+    line-height: 18px;
+    
+}
+
+/* FOOTER LIST */
+
+footer .list ul li a{
+    display: none;
+}
+
+footer .list{
+    flex-direction: column;
+    gap: 0;
+}
+
+footer .list ul{
+    margin: 0px;
+}
+
+footer .list ul li{
+    line-height: 2.5;
+}
+
+footer .list ul li h4{
+    font-weight: normal;
+    color: #6e6e73;
+}
+
+footer .list hr, footer .list div ul li:last-child{
+    display: block;
+}
+
+footer .list ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+
+
+}
+
+
+/* TAB */
+@media(min-width:834px ) and (max-width:1024px) {
+
+
+
+    
+/* SECTION 1 */
+
+
+.banner1>.heading>h1{
+    font-size:40px;
+    width: 400px;
+}
+.banner1>:nth-child(2){
+    font-size: 25px
+}
+
+
+
+.banner1>:nth-child(3)>a{
+    font-size: 21px;
+
+}
+
+.banner1>:last-child{
+    height: 260px;
+}
+
+
+
+
+/* section 2 */
+
+
+
+.banner2-bg{
+    background: url(../images/image2_tab.jpg) no-repeat center;
+}
+
+.banner2-text{
+    margin-top: 60px;
+}
+
+
+.banner2-text>h1{
+    font-size: 50px;
+}
+
+.banner2-text>p{
+    font-size: 25px;
+}
+
+.banner2-text>div>span>a{
+    font-size: 18px;
+}
+
+.banner2-text>div{
+    margin-top: 12px;
+}
+
+/* BANNER 3 */
+
+.banner3-bg{
+    background: url(../images/banner3_bg_tab.jpg) no-repeat center;
+}
+
+
+.banner3-text{
+    margin-top: 60px;
+}
+
+
+.banner3-text>h1{
+    font-size: 50px;
+}
+
+.banner3-text>p{
+    font-size: 25px;
+}
+
+.banner3-text>div>span>a{
+    font-size: 18px;
+}
+
+.banner3-text>div{
+    margin-top: 12px;
+}
+
+
+
+/* BANNER 4 */
+
+.banner3-bg{
+    background: url(../images/banner4_bg_tab.jpg) no-repeat center;
+}
+
+
+.banner3-text{
+    margin-top: 60px;
+}
+
+
+.banner3-text>h1{
+    font-size: 50px;
+}
+
+.banner3-text>p{
+    font-size: 25px;
+}
+
+.banner3-text>div>span>a{
+    font-size: 18px;
+}
+
+.banner3-text>div{
+    margin-top: 12px;
+}
+
+
+
+/* SECTION 5 */
+
+.section5-6-7-prop{
+    margin: 0px;
+
+}
+.small-banners{
+    margin: 0px 6px 6px 0px;
+    width: 50%;
+}
+
+.small-banners-text{
+    width: 350px;
+}
+
+.small-banners-text>h1{
+    font-size: 35px;
+    margin-bottom: 4px;
+}
+
+.small-banners-text>p{
+    font-size: 18px;
+}
+
+
+/* FOOT NOTES */
+
+.footNotes{
+    padding: 10px 50px;
+    
+}
+
+    
+}

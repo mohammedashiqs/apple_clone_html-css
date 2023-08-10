@@ -1,0 +1,431 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+
+:root{
+    --font-color-black: #000;
+    --font-color-white: #fff;
+    --font-family-san-serif: sans-serif;
+    --banner-height: 600px;
+}
+
+
+/* HEADER CODE */
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    width: 100%;
+}
+
+header>nav>img{
+    height: 20px;
+    cursor: pointer;
+
+}
+
+header>nav>img:last-child{
+    display: none;
+}
+
+
+
+
+header>nav>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;
+}
+
+
+
+header>nav>ul>li>a{
+    text-decoration: none;
+    color:var(--font-color-black);
+    font-size: small;
+    padding: 8px 0px;
+}
+
+
+header>nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    font-family: var(--font-family-san-serif);
+    width: 80%;
+    padding: 10px 0px;
+    
+}
+
+/* SECTION 1 */
+
+.banner1{
+    align-items: center;
+    font-family: var(--font-family-san-serif);
+}
+
+.banner1>.heading{
+    padding-top: 55px;
+    padding-bottom: 6px;;
+}
+
+.banner1>.heading>h1{
+    font-size:50px;
+    width: 500px;
+}
+.banner1>:nth-child(2){
+    font-size: 30px
+}
+
+.banner1>:nth-child(3){
+    padding-top: 14px;
+    padding-bottom: 65px;
+}
+
+.banner1>:nth-child(3)>a{
+    font-size: 25px;
+
+}
+
+.banner1>:last-child{
+    height: 270px;
+}
+
+
+/* section 2 */
+
+.banner2{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    color: var(--font-color-white);
+    font-family: var(--font-family-san-serif);
+    margin: 10px 0px;
+}
+
+.banner2-bg{
+    background: url(../images/image2-desktop.jpg) no-repeat center;
+    height: var(--banner-height);
+    background-size: cover;
+    width: 100%;
+}
+
+.banner2-text{
+    position: absolute;
+    margin-top: 63px;
+}
+
+
+.banner2-text>h1{
+    font-size: 55px;
+}
+
+.banner2-text>p{
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.banner2-text>div>span>a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.banner2-text>div>span>a:hover{
+    text-decoration: underline;
+}
+
+
+
+.banner2-text>div{
+    margin-top: 15px;
+}
+
+/* BANNER 3 */
+.banner3{
+    display: flex;
+    justify-content: center;
+    color: var(--font-color-black);
+    margin: 10px 0px;
+}
+.banner3-bg{
+    background: url(../images/banner3_bg_desktop.jpg) no-repeat center;
+    height: var(--banner-height);
+    background-size: cover;
+    width: 100%;
+}
+.banner3-text{
+    position: absolute;
+    margin-top: 63px;
+    font-family: var(--font-family-san-serif);
+}
+.banner3-text>h1{
+    font-size: 55px;
+}
+.banner3-text>p{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.banner3-text>div>span>a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #2997ff;
+}
+.banner3-text>div{
+    margin-top: 15px;
+}
+
+.banner3-text>div>span>a:hover{
+    text-decoration: underline;
+}
+
+/* BANNER 4 */
+
+.banner4{
+    display: flex;
+    justify-content: center;
+    color: var(--font-color-black);
+    margin: 10px 0px;
+}
+.banner4-bg{
+    background: url(../images/banner4_bg_desktop.jpg) no-repeat center;
+    height: var(--banner-height);
+    background-size: cover;
+    width: 100%;
+}
+.banner4-text{
+    position: absolute;
+    margin-top: 63px;
+    font-family: var(--font-family-san-serif);
+}
+.banner4-text>h1{
+    font-size: 55px;
+}
+.banner4-text>p{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.banner4-text>div>span>a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #2997ff;
+}
+.banner4-text>div{
+    margin-top: 15px;
+}
+
+.banner4-text>div>span>a:hover{
+    text-decoration: underline;
+}
+
+
+/* SECTION 5 */
+
+.section5-6-7-prop{
+    display: flex;
+    margin: 8px 0px;
+
+}
+
+
+.small-banner-1-bg{
+    background: url(../images/section5_bg_1.jpg) no-repeat center;
+}
+.small-banner-2-bg{
+    background: url(../images/section5_bg_2.jpg) no-repeat center;
+}
+.small-banner-3-bg{
+    background: url(../images/section5_bg_3.jpg) no-repeat center;
+}
+.small-banner-4-bg{
+    background: url(../images/section5_bg_4.jpg) no-repeat center;
+}
+.small-banner-5-bg{
+    background: url(../images/section5_bg_5.jpg) no-repeat center;
+}
+.small-banner-6-bg{
+    background: url(../images/section5_bg_6.jpg) no-repeat center;
+}
+
+
+
+
+
+
+/* NB: background image properties should write below the background image, other not work */
+.small-banners{
+    height: var(--banner-height);
+    background-size: cover;
+    width: 50%;
+    margin: 8px 8px 0 8px;
+}
+
+.small-banners-text{
+    width: 400px;
+    font-family: var(--font-family-san-serif);
+    margin-top: 50px;
+}
+
+.small-banners-text>h1{
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+
+.small-banners-text>p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.small-banners-text>a{
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.small-banners-text>a:hover{
+    text-decoration: underline;
+}
+
+.small-banners-text>span>a{
+    text-decoration: none;
+    color: #2997ff;
+}
+.small-banners-text>span>a:hover{
+    text-decoration: underline;
+}
+
+.section5>.small-banner-2-bg>.small-banners-text{
+    margin-top: 400px;
+}
+
+.section6{
+    color: var(--font-color-white);
+}
+.small-banner-4-bg>.small-banners-text>p>img{
+    height: 30px;
+}
+
+.small-banner-5-bg>.small-banners-text>span>a{
+    color: var(--font-color-black);
+}
+
+.small-banners-text>h1>img{
+    height: 34px;
+}
+
+
+/* MOVIE BANNER SWIPER */
+
+.carousel-cell{
+    width: 76%;
+    height: 550px;
+    margin: 0px 8px;
+    overflow: hidden;
+
+}
+
+.carousel-cell img{
+    width: 100%;
+    height: 700px;
+    /* object-fit: cover; */
+}
+
+/* FOOT NOTES */
+
+.footNotes{
+    margin: 40px 0px;
+    padding: 10px 120px;
+    text-align: left;
+    font-family: var(--font-family-san-serif);
+    font-size: 12px;
+    line-height: 23px;
+    color: #6e6e73;
+    background-color: whitesmoke;
+}
+
+.footNotes>.termsandconditions{
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.footNotes>.termsandconditions>li>span>a{
+    color: black;
+}
+.footNotes>.termsandconditions>li>a{
+    color: black;
+}
+.footNotes>.termsandconditions>li{
+    margin: 7px 0px;
+}
+
+
+footer .list{
+    display: flex;
+    gap: 100px;
+    
+}
+
+
+
+
+footer .list ul{
+    list-style: none;
+    margin: 20px 0px;
+}
+
+
+footer .list ul li a{
+    text-decoration: none;
+    color: #6e6e73;
+    font-family: var(--font-family-san-serif);
+    line-height: 2.2;
+}
+
+footer .list ul li:hover a{
+    text-decoration: underline;
+}
+
+footer .list ul li h4{
+    font-weight: bold;
+    color: #4c4b4b;
+}
+
+footer .list hr, footer .list div ul li:last-child{
+    display: none;
+}
+
+.findAppleStore{
+    font-family: var(--font-family-san-serif);
+    margin: 7px 0px;
+}
+.findAppleStore a{
+    color: #2997ff;
+}
+
+.copyRight{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
+
+.copyRight>div>span{
+    margin-right: 20px;
+}
+
+.copyRight>div:first-child{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
